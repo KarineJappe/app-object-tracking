@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 import {
   StyleSheet, 
   Text, 
@@ -9,8 +9,8 @@ import {
 
 import LottieView from 'lottie-react-native'
 
-export default class Login extends Component{
-  render() {
+export default function Login() {
+
     return (
       <View style={styles.container}>
         <View style={styles.animation}>
@@ -32,7 +32,7 @@ export default class Login extends Component{
      
     );
   } 
-}
+
 
 const styles = StyleSheet.create({
   container: {
