@@ -1,0 +1,17 @@
+{
+  "name": "api-object-tracking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-correios": "^3.0.2",
+    "rastrojs": "^1.1.0",
+    "tracking-correios": "^1.2.0"
+  }
+}
